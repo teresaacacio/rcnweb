@@ -2,15 +2,48 @@ body {
   overflow-y: scroll;
   font-family:Arial,Helvetica,sans-serif;
   font-size:12px;
-  text-align:center;
-  vertical-align: text-top;
+/*  text-align:center; */
+/*  vertical-align: text-top; */
   
+  /*
   background: #49689e;
-  background-image: url('photo-240223.jpeg');
+  background-image: url('photo-240223.jpeg'); */
 
   background-repeat:no-repeat;
   background-attachment: fixed;
   background-size: 100% auto;
+  text-align: center;
 }
 
+#parent {
+/*  display: flex; */
+  top: 200px;
+}
 
+div#maintext {
+  flex : 1;
+  color: rgb(37,37,37);
+  font-size: 20px;
+  text-shadow: 1px 1px rgba(256,256,256,0.6);
+  padding: 20px;
+/*  background-color: rgba(256,256,256,0.6); */
+}
+
+div#logodiv {
+  color: rgb(77,77,77);
+  font-size: 20px;
+  text-shadow: 1px 1px rgba(256,256,256,0.6);
+  padding: 20px;
+}
+
+/*
+div#logodiv, div#maintext {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}  
+*/
+
+div {
+ /* border: 50px solid black; */
+}
